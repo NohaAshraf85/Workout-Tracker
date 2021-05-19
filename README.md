@@ -25,3 +25,20 @@ Deployed application can be viewed through the following link: [Workout-Tracker]
 [Tests](#tests)
 
 [Questions](#questions)
+
+## Technologies & tools used
+1. HTML
+2. JavaScript
+3. MongoDB
+4. Dependencies
+    * express
+    * mongoose
+    * morgan
+
+## Installation
+To install the application locally, follow the following steps:
+1. Clone the repo on your local machine
+3. Install the followning dependencies:
+    * [express](https://www.npmjs.com/package/express) through `npm i express` command
+    * [mongoose](https://www.npmjs.com/package/mongoose) thgouth `npm i mongoose` command
+    * [morgan](https://www.npmjs.com/package/morgan) through `npm i morgan` command
