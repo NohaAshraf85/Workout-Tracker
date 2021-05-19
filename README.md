@@ -2,7 +2,7 @@
 ## Description
 The Workout Tracker application provides the user with the ability to create and track daily workouts to reach a certain goal. 
 
-Deployed application can be viewed through the following link: [Workout-Tracker](https://stormy-escarpment-39241.herokuapp.com/?id=60a4b3ced1c0fc00154aee1e)
+Deployed application can be viewed through the following link: [Workout-Tracker](https://stormy-escarpment-39241.herokuapp.com/?id=60a564413b7e1600151330d6)
 
 ## Table of Contents
 
@@ -51,24 +51,45 @@ To install the application locally, follow the following steps:
 The Workout Tracker enables the user to track their daily exercises through adding different types of workouts and being able to track the overall progress through the dashboard providing the user with workout stats.
 
 ## How It Works
-The Workout Tracker application is deployed on Heroku through the following link [Workout-Tracker](https://stormy-escarpment-39241.herokuapp.com/?id=60a4b3ced1c0fc00154aee1e) while the database is setup on MondoDB Atlas.
+The Workout Tracker application is deployed on Heroku through the following link [Workout-Tracker](https://stormy-escarpment-39241.herokuapp.com/?id=60a564413b7e1600151330d6) while the database is setup on MondoDB Atlas.
 
-Upon opening the deployed application the user is presented with the Homepage which enables the user to create a new Workout. 
+Upon opening the deployed application the user is presented with the Homepage which enables the user to create a New Workout. 
 
-![Homepage](./assets/images/Homepage.png)
+![Homepage](./assets/images/HomepageFinal.png)
 
-**New Workout:** chosing to create a new workout presents the user with the option to add the type of exercise form a drop-down list, the list currently includes Resistance and Cardio workouts
+**New Workout** 
+
+Creating a New wWorkout presents the user with the option to add the type of exercise form a drop-down list, the list currently includes Resistance and Cardio.
 
 ![workoutList](./assets/images/workoutList.png)
 
 1. **Resistance:** 
-The Resistance exercises provides the user with an interface that includes a form to be filled out with the workout details, Exercise Name, Weight in lbs, Sets, Reps, Duration in minutes.
+The Resistance exercises provides the user with an interface that includes a form to be filled out with the exercise details: 
+* Exercise Type
+* Name 
+* Weight in lbs 
+* Sets 
+* Reps 
+* Duration in minutes
 
 ![resistance](./assets/images/resistance.png)
 
-Upon filling all the required workout details, the user can either choose to add the exercise and then click on complete. 
+2. **Cardio**
+The Cardio exercise provides the user with an interface that includes a form to be filled out with the exercise details:
+* Exercise Type
+* Name
+* Distance in miles
+* Duration in minutes
 
-Once the user is done adding the exercise, a page displaying the Last workout is rendered, presenting the details 
+![cardio](./assets/images/cardio.png)
+
+
+Upon filling all the required excercise details, the user clicks on Add Exercise an quick pop-up message shall be displayed to confirm that the workout was added successfully and then the user clicks on Complete. 
+
+Once the user is done adding the exercise, a page displaying the Last workout is rendered, presenting the Last Workout detail. This page provides the user with the option to either create a New Workout or Continue Workout.
+
+![lastWorkout](./assets/images/lastWorkout.png)
+
 
 
 ## License
