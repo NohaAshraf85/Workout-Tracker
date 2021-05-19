@@ -84,9 +84,9 @@ The Cardio exercise provides the user with an interface that includes a form to 
 ![cardio](./assets/images/cardio.png)
 
 
-Upon filling all the required excercise details, the user clicks on Add Exercise an quick pop-up message shall be displayed to confirm that the workout was added successfully and then the user clicks on Complete. 
+Upon filling all the required excercise details, the user clicks on Add Exercise and quick pop-up message shall be displayed to confirm that the workout was added successfully. The user can then either add another exercise or click Complete. 
 
-Once the user is done adding the exercise, a page displaying the Last workout is rendered, presenting the Last Workout detail. This page provides the user with the option to either create a New Workout or Continue Workout.
+Once the user chooses to Complete the exercise, a page displaying the Last workout is rendered, presenting the Last Workout detail, the details. This page provides the user with the option to either create a New Workout or Continue Workout.
 
 ![lastWorkout](./assets/images/lastWorkout.png)
 
