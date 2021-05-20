@@ -91,13 +91,12 @@ Once the user chooses to Complete the exercise, a page displaying the Last worko
 3. **Continue Workout**
 The Continue Workout page enables the user to the page where the user can create a new workout. 
 
+![lastWorkout](./assets/images/lastWorkout.png)
+
 **Workout Dashboard**
 The Workout Dashboard is a page that provides stats for all the workouts added. 
 
 ![stats](./assets/images/stats.png)
-
-
-![lastWorkout](./assets/images/lastWorkout.png)
 
 ## License
 ![APM](https://img.shields.io/apm/l/README)
@@ -105,8 +104,11 @@ The Workout Dashboard is a page that provides stats for all the workouts added.
 ## Badges
 
 ![HTML](https://img.shields.io/badge/HTML-blue)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-blue)
 ![CSS](https://img.shields.io/badge/CSS-blue)
+![express](https://img.shields.io/badge/express-blue)
+![mongoose](https://img.shields.io/badge/mongoose-blue)
+![mmorgan](https://img.shields.io/badge/morgan-blue)
 
 ## Contributing 
 
