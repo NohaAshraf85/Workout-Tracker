@@ -10,7 +10,7 @@ Deployed application can be viewed through the following link: [Workout-Tracker]
 
 [Technologies-&-tools-used](#Technologies-&-tools-used)
 
-[Installation](#Installation)
+[Local-Installation](#Local-Installation)
 
 [Usage](#usage)
 
@@ -21,6 +21,8 @@ Deployed application can be viewed through the following link: [Workout-Tracker]
 [Badges](#Badges)
 
 [Contributing](#contributing)
+
+[Deployed-Application](#Deployed-Application)
 
 [Tests](#tests)
 
@@ -35,7 +37,7 @@ Deployed application can be viewed through the following link: [Workout-Tracker]
     * mongoose
     * morgan
 
-## Installation
+## Local Installation
 To install the application locally, follow the following steps:
 1. Clone the repo on your local machine
 3. Install the followning dependencies:
@@ -48,11 +50,9 @@ To install the application locally, follow the following steps:
 7. To open the application locally, open localhost:3000 in your browser
 
 ## Usage
-The Workout Tracker enables the user to track their daily exercises through adding different types of workouts and being able to track the overall progress through the dashboard providing the user with workout stats.
+The Workout Tracker enables the user to track their daily exercises through adding different types of workouts and being able to view the overall progress through the dashboard providing the user with workout stats.
 
 ## How It Works
-The Workout Tracker application is deployed on Heroku through the following link [Workout-Tracker](https://stormy-escarpment-39241.herokuapp.com/?id=60a564413b7e1600151330d6) while the database is setup on MondoDB Atlas.
-
 Upon opening the deployed application the user is presented with the Homepage which enables the user to create a New Workout. 
 
 ![Homepage](./assets/images/HomepageFinal.png)
@@ -72,7 +72,7 @@ The Resistance exercises provides the user with an interface that includes a for
 * Reps 
 * Duration in minutes
 
-![resistance](./assets/images/resistance.png)
+![resistance](./assets/images/resistance1.png)
 
 2. **Cardio**
 The Cardio exercise provides the user with an interface that includes a form to be filled out with the exercise details:
@@ -86,11 +86,18 @@ The Cardio exercise provides the user with an interface that includes a form to 
 
 Upon filling all the required excercise details, the user clicks on Add Exercise and quick pop-up message shall be displayed to confirm that the workout was added successfully. The user can then either add another exercise or click Complete. 
 
-Once the user chooses to Complete the exercise, a page displaying the Last workout is rendered, presenting the Last Workout detail, the details. This page provides the user with the option to either create a New Workout or Continue Workout.
+Once the user chooses to Complete the exercise, a page displaying the Last workout is rendered, presenting the Last Workout details. This page provides the user with the option to either create a New Workout or Continue Workout.
+
+3. **Continue Workout**
+The Continue Workout page enables the user to the page where the user can create a new workout. 
+
+**Workout Dashboard**
+The Workout Dashboard is a page that provides stats for all the workouts added. 
+
+![stats](./assets/images/stats.png)
+
 
 ![lastWorkout](./assets/images/lastWorkout.png)
-
-
 
 ## License
 ![APM](https://img.shields.io/apm/l/README)
@@ -105,6 +112,10 @@ Once the user chooses to Complete the exercise, a page displaying the Last worko
 
 To contribute to this project, please make sure you follow the guidelines in [The Contributor Covenant](https://www.contributor-covenant.org/) as general guidelines.
 Kindly maintain the highest ethics and respect. For further questions or requests kindly contact me through my [Email](mailto:noha_ashraf85@hotmail.com) or [GitHub](https://github.com/NohaAshraf85).
+
+
+## Deployed-Application
+The Workout Tracker application is deployed on Heroku through the following link [Workout-Tracker](https://stormy-escarpment-39241.herokuapp.com/?id=60a564413b7e1600151330d6) while the database is setup on MondoDB Atlas.
 
 ## Tests
 The application routes are tested using Insomnia and the front end for working functionality.
