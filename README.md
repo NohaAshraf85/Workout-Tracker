@@ -107,7 +107,7 @@ To contribute to this project, please make sure you follow the guidelines in [Th
 Kindly maintain the highest ethics and respect. For further questions or requests kindly contact me through my [Email](mailto:noha_ashraf85@hotmail.com) or [GitHub](https://github.com/NohaAshraf85).
 
 ## Tests
-The application has been tested on the browser and on multiple devices to test the responsiveness.
+The application routes are tested using Insomnia and the front end for working functionality.
 
 ## Questions
 For any questions, please contact me through [GitHub](https://github.com/NohaAshraf85) 
